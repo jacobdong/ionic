@@ -58,7 +58,7 @@
  * refresher. This is depreicated in favor of the SVG {@link ionic.directive:ionSpinner}.
  * @param {boolean=} disable-pulling-rotation Disables the rotation animation of the pulling
  * icon when it reaches its activated threshold. To be used with a custom `pulling-icon`.
- *
+ * @param {string=} pulling-text The html content to display to display while the user is pulling down 
  */
 IonicModule
 .directive('ionRefresher', [function() {
